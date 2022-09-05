@@ -70,6 +70,7 @@ $$
 $$
 
 The policy $\pi$ in this case is parameterized by $\Theta$, where in my implementation, I have used a single Neural Network to represent it. The network got the following architecture:
+
 $$
 4_{input-states} \to^{linear} 10_{hidden-nodes} \to^{Sigmoid} 2_{action-scores} \to^{Softmax} 2_{action-prob.}
 $$
