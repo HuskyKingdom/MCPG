@@ -92,7 +92,7 @@ $$
 Where the $y_{ture}$ is equal to 1 in true action, and equal to 0 in all other actions, plus, $Softmax(y_{input}) = \pi_{\Theta}(s,a)$, that makes the equation is equavalent to:
 
 $$
-- 1*log(\pi_{\Theta}(s,a))
+-1*log(\pi_{\Theta}(s,a))
 $$
 
 Which is exactly what we want, passing all the $S_t$ in the sampled trajectory into the network to obtain collections of actions, rewards and the network outputs for each actions, in each step, we can calculate $- log\pi_{\Theta}(s,a)v_t$ for each time step, then compute the average of these values to get $E_{\pi_\Theta}[-log\pi_{\Theta}(s,a) * r]$, finally perform backpropagation by the average $-log\pi_{\Theta}(s,a)v_t$, let the torch.tensor.autogrand to handle the calculations of deravatives.
