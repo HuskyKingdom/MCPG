@@ -49,7 +49,7 @@ $$
 J(\Theta) = \sum_{s \in S}{d(s)} \sum_{a \in A}{\pi_{\Theta}(s,a)R_{s,a}}
 $$
 
-We want to maximize this objective function, as the following(Using MaxLikehood trick):
+We want to maximize this objective function, as the following(Using MaxLikelihood trick):
 
 $$
 \nabla_{\Theta} J(\Theta) = \sum_{s \in S}{d(s)} \sum_{a \in A}{\pi_{\Theta} (s,a) * \nabla_{\Theta}log\pi_{\Theta}(s,a) * R_{s,a}} \\ 
