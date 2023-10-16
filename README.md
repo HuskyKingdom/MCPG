@@ -14,9 +14,9 @@
 This project is an implementation of Monte-Carlo Policy Gradient algorithm to address CartPole-v0 problem under Open-AI GYM environment.
 </br>
 <br />
-<a href="https://yuhang.topsoftint.com">Contact me at: <strong>yuhang@topsoftint.com</strong></a>
+<a href="https://yuhang.topsoftint.com">Contact me at: <strong>me@yhscode.com</strong></a>
 
-<a href="https://yuhang.topsoftint.com"><strong>View my full bio.</strong></a>
+<a href="https://yhscode.com"><strong>View my full bio.</strong></a>
     <br />
     <br />
   </p>
